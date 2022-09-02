@@ -44,3 +44,21 @@ X23(:,5) = x_base+(x_base-x_high)*alfa
 然後用新的X23變更part 1的行號.xlsx內容，並開始"逐一變更"5個.csv檔案的當下time值及隨機cost值，
 
 且新的每個.csv內的當下time值是不同的(因為是"逐一變更"的關係)。
+
+
+
+讀入work0到work4的xlsx檔
+
+都加入x23的陣列中
+
+分別讀入time.csv檔，並且取出cost值存入向量
+
+再cost的向量中找出最大與最小值的索引值
+
+再根據索引值比對x23的x_high與x_low
+
+根據題目的進行運算
+
+利用openpyxl對原本的xlsx檔進行更改
+
+最後利用pandas對time的時間進行時間的更改
