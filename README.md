@@ -47,18 +47,18 @@ X23(:,5) = x_base+(x_base-x_high)*alfa
 
 
 
-讀入work0到work4的xlsx檔
+1.讀入work0到work4的xlsx檔
 
-都加入x23的陣列中
+2.都加入x23的陣列中
 
-分別讀入time.csv檔，並且取出cost值存入向量
+3.分別讀入time.csv檔，並且取出cost值存入向量
 
-再cost的向量中找出最大與最小值的索引值
+4.再cost的向量中找出最大與最小值的索引值
 
-再根據索引值比對x23的x_high與x_low
+5.再根據索引值比對x23的x_high與x_low
 
-根據題目的進行運算
+6.根據題目的進行運算
 
-利用openpyxl對原本的xlsx檔進行更改
+7.利用openpyxl對原本的xlsx檔進行更改
 
-最後利用pandas對time的時間進行時間的更改
+8.最後利用pandas對time的時間進行時間的更改
